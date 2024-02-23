@@ -76,7 +76,16 @@ nav ul {
 img {
     width: 80px;
     height: 80px;
+
 }
+/* Media query for mobile devices */
+@media only screen and (max-width: 568px) {
+    img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
 
 .home-thumbnail {
     height: 80px;
