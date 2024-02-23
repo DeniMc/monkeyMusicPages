@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    background-size: cover;
+  background-position: center;
+  min-height: 100vh; /* Ensures the background covers the entire viewport height */
+}
+
+.page1 {
+    background-image: url(./images/lets-go.jpeg);
+}
+.page2 {
+    background-image: url(./images/talking-bout.jpeg);
+}
+.page3 {
+    background-image: url(./images/crazy-train.jpeg);
+}
+.page4 {
+    background-image: url(./images/free-bird.jpeg);
+}
+.page5 {
+    background-image: url(./images/final-countdown.jpeg);
+}
+
+.homepage {
+    background-image: url(./images/music-monkey.jpeg );
+}
+
+p {
+    font-size: 2.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 {
+    font-size: 3.6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Audio controls styling */
+
+audio {
+    width: 80%;
+    height: 50px;
+}
+audio::-webkit-media-controls-panel {
+    background-color: rgb(163, 28, 163); /* Set the background color */
+    color: #fff; /* Set the text color */
+  }
+
+
+
+
+/* Nav Bar Styling */
+
+nav ul {
+    list-style-type: none;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: radial-gradient(circle, #000000, #fff, #6A0DAD);
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}
+
+.home-thumbnail {
+    height: 80px;
+    width: 80px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/music-monkey.jpeg );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+}
